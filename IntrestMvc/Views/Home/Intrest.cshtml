@@ -1,0 +1,41 @@
+﻿@model IntrestMvc.Models.Test
+@{
+    ViewBag.Title = "Intrest";
+}
+
+<h2>Calclute Intrest</h2>
+<style>
+    .err {
+        color: #fc0000;
+    }
+</style>
+
+@using (Html.BeginForm("Intrest", "Home", FormMethod.Post))
+{
+    <div class="form-group">
+        <label>Principle</label>
+        @Html.TextBoxFor(m => m.principle, new { @class = "form-control", @placeholder = "Please Enter Principle", dat_val = "true", data_val_required = "Please Enter Valid Input" })
+        @Html.ValidationMessageFor(m => m.principle, "", new { @class = "err" })
+    </div>
+
+    <div class="form-group">
+        <label>rate</label>
+        @Html.TextBoxFor(m => m.rate, new { @class = "form-control", @placeholder = "Please Enter rate", dat_val = "true", data_val_required = "Please Enter Valid Input" })
+        @Html.ValidationMessageFor(m => m.rate, "", new { @class = "err" })
+    </div>
+
+    <div class="form-group">
+        <label>samay</label>
+        @Html.TextBoxFor(m => m.samay, new { @class = "form-control", @placeholder = "Please Enter Time", dat_val = "true", data_val_required = "Please Enter Valid Input" })
+        @Html.ValidationMessageFor(m => m.samay, "", new { @class = "err" })
+    </div>
+
+   <div>
+        <label>Result</label>
+       <h1>@ViewBag.Res</h1>
+        
+    </div>
+
+    <button class="btn btn-success" type="submit">Calclute</button>
+    <button class="btn btn-danger" type="reset">Reset</button>
+}

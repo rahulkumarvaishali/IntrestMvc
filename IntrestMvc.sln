@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntrestMvc", "IntrestMvc\IntrestMvc.csproj", "{5D7CC47C-07FC-43B5-9A07-334FAAB56B5D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5D7CC47C-07FC-43B5-9A07-334FAAB56B5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D7CC47C-07FC-43B5-9A07-334FAAB56B5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D7CC47C-07FC-43B5-9A07-334FAAB56B5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D7CC47C-07FC-43B5-9A07-334FAAB56B5D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CE5BDC39-E466-4F78-B9FD-7084ABBAD9A5}
+	EndGlobalSection
+EndGlobal
